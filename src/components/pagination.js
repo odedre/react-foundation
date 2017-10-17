@@ -6,6 +6,22 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Pagination component.
  * http://foundation.zurb.com/sites/docs/pagination.html
  *
+ * @example
+ *
+ * <div className="pagination-basics-example">
+ *  <Pagination aria-label="Pagination">
+ *    <PaginationPrevious isDisabled>Previous <Inline showForSr>page</Inline></PaginationPrevious>
+ *    <PaginationItem isCurrent><Inline showForSr>You're on page</Inline> 1</PaginationItem>
+ *    <PaginationItem><a aria-label="Page 2">2</a></PaginationItem>
+ *    <PaginationItem><a aria-label="Page 3">3</a></PaginationItem>
+ *    <PaginationItem><a aria-label="Page 4">4</a></PaginationItem>
+ *    <PaginationEllipsis/>
+ *    <PaginationItem><a aria-label="Page 12">12</a></PaginationItem>
+ *    <PaginationItem><a aria-label="Page 13">13</a></PaginationItem>
+ *    <PaginationNext><a aria-label="Next page">Next <Inline showForSr>page</Inline></a></PaginationNext>
+ *  </Pagination>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

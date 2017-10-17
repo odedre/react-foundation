@@ -7,6 +7,15 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Label component.
  * http://foundation.zurb.com/sites/docs/label.html
  *
+ * @example
+ *
+ * <div className="label-colors-example">
+ *  <Label color={Colors.SECONDARY}>Secondary Label</Label>
+ *  <Label color={Colors.SUCCESS}>Success Label</Label>
+ *  <Label color={Colors.ALERT}>Alert Label</Label>
+ *  <Label color={Colors.WARNING}>Warning Label</Label>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

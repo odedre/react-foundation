@@ -6,6 +6,19 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
 /**
  * Row component.
  *
+ * @example
+ *
+ * <div className="grid-small-example">
+ *  <Row className="display">
+ *    <Column small={2}>2 columns</Column>
+ *    <Column small={10}>10 columns</Column>
+ *  </Row>
+ *  <Row className="display">
+ *    <Column small={3}>3 columns</Column>
+ *    <Column small={9}>9 columns</Column>
+ *  </Row>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

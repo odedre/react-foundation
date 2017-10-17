@@ -9,6 +9,12 @@ let currentId = 0;
  * Switch component.
  * http://foundation.zurb.com/sites/docs/switch.html
  *
+ * @example
+ *
+ * <div className="switch-basics-example">
+ *   <Switch/>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

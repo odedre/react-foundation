@@ -7,6 +7,11 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Badge component.
  * http://foundation.zurb.com/sites/docs/badge.html
  *
+ * @example
+ * <div className="badge-basics-example">
+ *   <Badge>1</Badge>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

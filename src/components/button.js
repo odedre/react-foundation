@@ -6,6 +6,15 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
 /**
  * Button property types.
  *
+ * @example
+ *
+ * <div className="button-basics-example">
+ *  <Link>Learn More</Link>
+ *  <Link>View All Features</Link>
+ *  <Button color={Colors.SUCCESS}>Save</Button>
+ *  <Button color={Colors.ALERT}>Delete</Button>
+ * </div>
+ *
  * @type {Object}
  */
 const ButtonPropTypes = {

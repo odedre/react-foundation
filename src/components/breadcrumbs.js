@@ -6,6 +6,21 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Breadcrumbs component.
  * http://foundation.zurb.com/sites/docs/breadcrumbs.html
  *
+ * @example
+ *
+ * <div className="breadcrumbs-example">
+ *  <nav aria-label="You are here:" role="navigation">
+ *    <Breadcrumbs>
+ *      <BreadcrumbItem><a>Home</a></BreadcrumbItem>
+ *      <BreadcrumbItem><a>Features</a></BreadcrumbItem>
+ *      <BreadcrumbItem isDisabled>Gene Splicing</BreadcrumbItem>
+ *      <BreadcrumbItem>
+ *        <Inline showForSr>Current: </Inline> Cloning
+ *      </BreadcrumbItem>
+ *    </Breadcrumbs>
+ *  </nav>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

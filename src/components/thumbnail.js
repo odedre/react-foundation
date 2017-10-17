@@ -5,6 +5,31 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Thumbnail component.
  * http://foundation.zurb.com/sites/docs/switch.html
  *
+ * @example
+ *
+ * <div className="grid-block-example">
+ *   <Row upOnSmall={1} upOnMedium={2} upOnLarge={4}>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *     <Column isColumn>
+ *       <Thumbnail src="//unsplash.it/300" alt=""/>
+ *     </Column>
+ *   </Row>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

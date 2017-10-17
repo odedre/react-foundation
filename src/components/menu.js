@@ -7,6 +7,17 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Menu component.
  * http://foundation.zurb.com/sites/docs/menu.html
  *
+ * @example
+ *
+ * <div className="menu-basics-example">
+ *  <Menu>
+ *    <MenuItem><a>One</a></MenuItem>
+ *    <MenuItem><a>Two</a></MenuItem>
+ *    <MenuItem><a>Three</a></MenuItem>
+ *    <MenuItem><a>Four</a></MenuItem>
+ *  </Menu>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

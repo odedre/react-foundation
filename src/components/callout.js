@@ -7,6 +7,16 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Callout component.
  * http://foundation.zurb.com/sites/docs/callout.html
  *
+ * @example
+ *
+ * <div className="callout-basics-example">
+ *  <Callout>
+ *    <h5>This is a callout.</h5>
+ *    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+ *    <a>It's dangerous to go alone, take this.</a>
+ *  </Callout>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

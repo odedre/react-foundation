@@ -7,6 +7,12 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Progress component.
  * http://foundation.zurb.com/sites/docs/progress-bar.html
  *
+ * @example
+ *
+ * <div className="progress-with-text-example">
+ *   <Progress meter={{ text: '25%' }} tabIndex="0" min={0} max={100} value={25} valueText="25 percent"/>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */

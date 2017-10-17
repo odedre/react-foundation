@@ -7,6 +7,15 @@ import { GeneralPropTypes, FlexboxPropTypes, createClassName, generalClassNames,
  * Button group component.
  * http://foundation.zurb.com/sites/docs/button-group.html
  *
+ * @example
+ * <div className="button-group-basics-example">
+ *  <ButtonGroup>
+ *    <Link>One</Link>
+ *    <Link>Two</Link>
+ *    <Link>Three</Link>
+ *  </ButtonGroup>
+ * </div>
+ *
  * @param {Object} props
  * @returns {Object}
  */
